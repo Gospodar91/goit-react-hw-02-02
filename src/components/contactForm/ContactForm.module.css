@@ -1,0 +1,14 @@
+.name{
+margin-bottom: 20px;
+  font-size: 18px;
+}
+.button{
+    width: 200px;
+    height: 20px;
+    background-color: #7fe77f;
+    border: none;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}

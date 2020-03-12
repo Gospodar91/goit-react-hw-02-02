@@ -1,0 +1,14 @@
+.button{
+    display: block;
+    background-color: rgb(233, 96, 96);
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    width: 120px;
+    margin-top: 20px;
+}
+.name{
+    font-size: 18px;
+    color: rgb(105, 96, 233);
+  
+}
