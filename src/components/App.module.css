@@ -1,0 +1,37 @@
+.phonebookTitle{
+    padding-top: 10px;
+    vertical-align: middle;
+  color: rgb(253, 15, 75);
+      font-size: 30px;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 100vw;
+height: 100vh;
+background-image: url('.././assets/image/Rick-Morty12.jpg');
+
+box-sizing: border-box;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.phonebook{
+    border: 5px solid #1C6EA4;
+    border-radius: 40px 40px 40px 40px;
+    width: 400px;
+    margin: 0 auto;
+ 
+-webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+margin-bottom: 70px;
+
+
+    background: #CE5937;
+    background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 49%, #C59237 100%);
+    background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 49%, #C59237 100%);
+    background: linear-gradient(to right, #CE5937 0%, #1C6EA4 49%, #C59237 100%);
+  
+
+
+
+}

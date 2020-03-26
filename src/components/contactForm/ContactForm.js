@@ -9,7 +9,9 @@ export default class ContactForm extends Component {
   };
 
   handleSubmit = event => {
+
     event.preventDefault();
+
     this.props.submitContact({
       name: this.state.name,
       number: this.state.number,
@@ -21,6 +23,9 @@ export default class ContactForm extends Component {
     });
   };
   handleChange = event => {
+    if(event.target.value==='')
+    {return}
+
     this.setState({
       [event.target.name]: event.target.value
     });
@@ -30,10 +35,11 @@ export default class ContactForm extends Component {
     const { name, number } = this.state;
     return (
       <>
-        <form onSubmit={this.handleSubmit}>
-          <div>
+        <form onSubmit={this.handleSubmit} className='form'>
+          
+          <div className='nameInput'>
             <span className={css.name}>Name</span>
-            <input
+            <input className ='nameInput'
               type="text"
               name="name"
               onChange={this.handleChange}
@@ -41,7 +47,7 @@ export default class ContactForm extends Component {
             />
           </div>
           <div>
-            <span className={css.name}>Number</span>
+            <span className={css.number}>Number</span>
             <input
               type="tel"
               name="number"
